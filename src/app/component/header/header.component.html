@@ -1,0 +1,18 @@
+<header>
+    <div class="navbar navbar-dark bg-primary shadow-sm">
+        <div class="navbar-brand align-item-center d-flex">
+            <i routerLink="product" style="font-size: 40px;cursor: pointer;" class="fas fa-shipping-fast">&nbsp;
+            </i>
+            <strong style="font-size: 30px;cursor: pointer;" routerLink="product"> SKstore </strong>
+            <div class="form-group mt-2">
+                <input type="text" class="form-control" name="" id="" placeholder="search product">
+            </div>
+            <span class="fas fa-search search-icon"></span>
+        </div>
+        <button routerLink="cart" class="btn btn-primary mx-5 m1-2">
+            <i style="font-size: 30px;" class="fas fa-cart-plus"></i>
+            <div style="font-size: 11px;" class="badge bg-danger">{{itemnumber}}</div>
+        </button>
+
+    </div>
+</header>
